@@ -13,7 +13,7 @@ These are the two places where we publish new versions; all others should not be
 
 <a href="https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://oxygenupdater.com/img/google-play-store-badge-en.svg?v=1" width="200"/></a>
 
-Note: installing via GitHub still supports auto-updates via the Play Store. Both releases are completely identical (except for format differences: AAB vs APK), since they're built on the same codebase & commit. Usually, we release on the Play Store first (100% rollout target), and a GitHub release follows shortly after.
+Note: installing via GitHub still supports auto-updates via the Play Store. Both releases are completely identical (except for format differences: AAB vs APK), since they're built on the same codebase and commit. Usually, we release on the Play Store first (100% rollout target), and a GitHub release follows shortly after.
 
 ## Star History
 
