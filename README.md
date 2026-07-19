@@ -9,11 +9,11 @@ These are the two places where we publish new versions; all others should not be
 - [Google Play Store][play-store] (Android App Bundles)
 - [GitHub releases page][github-ou-releases] (APKs)
 
-**We highly recommend downloading & installing the app from Google Play Store**, as it has several benefits: much smaller download sizes, auto-updates (including in-app updates), Play Protect, etc.
+**We highly recommend downloading & installing the app from the Google Play Store**, as it has several benefits: much smaller download sizes, auto-updates (including in-app updates), Play Protect, etc.
 
 <a href="https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://oxygenupdater.com/img/google-play-store-badge-en.svg?v=1" width="200"/></a>
 
-Note: installing via GitHub still supports auto-updates via the Play Store. Both releases are completely identical (except for format differences: AAB vs APK), since they're built on the exact same codebase & commit. Usually, we release on the Play Store first (100% rollout target), and a GitHub release follows shortly after.
+Note: installing via GitHub still supports auto-updates via the Play Store. Both releases are completely identical (except for format differences: AAB vs APK), since they're built on the same codebase & commit. Usually, we release on the Play Store first (100% rollout target), and a GitHub release follows shortly after.
 
 ## Star History
 
@@ -35,7 +35,7 @@ This app uses Google & Firebase APIs, so `app/google-services.json` needs to exi
 ### KeyStore
 
 Running non-`debug` variants of the app requires two things: generating a Java KeyStore and referencing it in `keystore.properties`.
-Java KeyStores can be created in Android Studio itself: <kbd>Build</kbd> → <kbd>Generate Signed Bundle / APK</kbd> → <kbd>Next</kbd> → <kbd>Create new…</kbd> (under key store path). If you're not using Android Studio, check the instructions for your specific IDE. Otherwise you'll need to create one [via CLI][java8-keytool].
+Java KeyStores can be created in Android Studio itself: <kbd>Build</kbd> → <kbd>Generate Signed Bundle / APK</kbd> → <kbd>Next</kbd> → <kbd>Create new…</kbd> (under key store path). If you're not using Android Studio, check the instructions for your specific IDE. Otherwise, you'll need to create one [via CLI][java8-keytool].
 
 Store the JKS anywhere you want, though we'd recommend keeping it in the `app` directory. This git project has been configured to ignore all JKS files, so there's no danger of accidentally committing secrets.
 
@@ -55,21 +55,21 @@ Note: if you saved the JKS file in the `app` directory, `storeFile` doesn't need
 This repository has no license. Default copyright laws apply, as mentioned in GitHub's ["Licensing a repository" page][github-licensing-info]:
 > [...] without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. [...].
 
-For legal purposes, the owner of this organization (Adhiraj Singh Chauhan) is to be considered as the owner of this project, and all its associated files and build outputs (APKs, AABs, etc.). Contributors of this project agree to transfer copyrights to the owner of this organization, with some exceptions:
+For legal purposes, the owner of this organization (Adhiraj Singh Chauhan) is to be considered the owner of this project and all its associated files and build outputs (APKs, AABs, etc.). Contributors of this project agree to transfer copyrights to the owner of this organization, with some exceptions:
 
-- Code owners share ownership of that file, and are entitled to the same copyright laws as the owner of the organization.
+- Code owners share ownership of that file and are entitled to the same copyright laws as the owner of the organization.
   Code owners are usually marked with the `@author` annotation on a class/method/variable.
 - If any source file within this repository has license information as part of the file, that license overrides.
 
-This means that you are not permitted to redistribute and/or modify both the source code of this project, and the relevant build outputs without our explicit permission.
-You can contact us on [our official Discord server][discord], or over [email][support-email].
+This means that you are not permitted to redistribute and/or modify both the source code of this project and the relevant build outputs without our explicit permission.
+You can contact us on [our official Discord server][discord] or over [email][support-email].
 
 You can still view/fork this repository, submit PRs, and/or raise issues. This is in accordance with [GitHub's Terms of Service][github-tos]:
 > [...] By setting your repositories to be viewed publicly, you agree to allow others to view and "fork" your repositories [...]
 
 ## Contributing
 
-All help is welcome, so if you'd like to contribute to the app's code or translations check out [`CONTRIBUTING.md`][contributing].
+All help is welcome, so if you'd like to contribute to the app's code or translations, check out [`CONTRIBUTING.md`][contributing].
 
 [badge-ci]: https://github.com/oxygen-updater/oxygen-updater/actions/workflows/ci.yml/badge.svg
 [badge-latest-release]: https://img.shields.io/badge/release-v7.1.0-%23f50514?logo=github
