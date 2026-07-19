@@ -62,7 +62,7 @@ For legal purposes, the owner of this organization (Adhiraj Singh Chauhan) is to
 - If any source file within this repository has license information as part of the file, that license overrides.
 
 This means that you are not permitted to redistribute and/or modify both the source code of this project and the relevant build outputs without our explicit permission.
-You can contact us on [our official Discord server][discord] or over [email][support-email].
+You can contact us on [our official Discord server][discord] or via [email][support-email].
 
 You can still view/fork this repository, submit PRs, and/or raise issues. This is in accordance with [GitHub's Terms of Service][github-tos]:
 > [...] By setting your repositories to be viewed publicly, you agree to allow others to view and "fork" your repositories [...]
