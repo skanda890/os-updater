@@ -57,7 +57,7 @@ This repository has no license. Default copyright laws apply, as mentioned in Gi
 
 For legal purposes, the owner of this organization (Adhiraj Singh Chauhan) is to be considered the owner of this project and all its associated files and build outputs (APKs, AABs, etc.). Contributors of this project agree to transfer copyrights to the owner of this organization, with some exceptions:
 
-- Code owners share ownership of that file and are entitled to the same copyright laws as the owner of the organization.
+- Code owners share ownership of their respective files and are entitled to the same copyright laws as the owner of the organization.
   Code owners are usually marked with the `@author` annotation on a class/method/variable.
 - If any source file within this repository has license information as part of the file, that license overrides.
 
